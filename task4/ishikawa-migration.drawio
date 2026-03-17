@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="Диаграмма Исикавы — Миграция" id="ish">
+    <mxGraphModel dx="1274" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="590" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="spine" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeWidth=4;strokeColor=#333333;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="340" as="sourcePoint" />
+            <mxPoint x="1032" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="effect" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#AE4132;fontColor=#ffffff;strokeColor=#8B2C1E;fontSize=12;fontStyle=1;" value="Риски миграции на микросервисы" vertex="1">
+          <mxGeometry height="96" width="230" x="1032" y="292" as="geometry" />
+        </mxCell>
+        <mxCell id="ba1" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#555555;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="340" as="sourcePoint" />
+            <mxPoint x="195" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="la1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=light-dark(#6C8EBF,#FFFFFF);fontSize=11;fontStyle=1;fontColor=light-dark(#1A3A5C,#FFFFFF);" value="Инфраструктура" vertex="1">
+          <mxGeometry height="32" width="175" x="107" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="sa1_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#EFF7FF,#1D293B);strokeColor=light-dark(#6C8EBF,#FFFFFF);fontSize=9;fontColor=light-dark(#1A3A5C,#FFFFFF);" value="Монолитный сервер, единая точка отказа&lt;br&gt;&lt;br&gt;Сетевая пропускная способность недостаточна&lt;br&gt;&lt;br&gt;Нет оркестратора Kubernetes" vertex="1">
+          <mxGeometry height="99" width="165" x="32" y="187" as="geometry" />
+        </mxCell>
+        <mxCell id="ba2" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#555555;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="340" as="sourcePoint" />
+            <mxPoint x="458" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="la2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=light-dark(#82B366,#FFFFFF);fontSize=11;fontStyle=1;fontColor=light-dark(#1A4D1A,#FFFFFF);" value="Программное обеспечение" vertex="1">
+          <mxGeometry height="38" width="175" x="370" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="sa2_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#F4FBF3,#1F2F1E);strokeColor=light-dark(#82B366,#FFFFFF);fontSize=9;fontColor=light-dark(#1A4D1A,#FFFFFF);" value="Слабое покрытие тестами, нет интеграционных тестов&lt;br&gt;&lt;br&gt;Нет API-версионирования и контрактов" vertex="1">
+          <mxGeometry height="99" width="168" x="296" y="187" as="geometry" />
+        </mxCell>
+        <mxCell id="ba3" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#555555;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="340" as="sourcePoint" />
+            <mxPoint x="775" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="la3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=light-dark(#D79B00,#FFFFFF);fontSize=11;fontStyle=1;fontColor=light-dark(#7A4000,#FFFFFF);" value="Персонал" vertex="1">
+          <mxGeometry height="32" width="164" x="693" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="sa3_3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFF8F0,#36210A);strokeColor=light-dark(#D79B00,#FFFFFF);fontSize=9;fontColor=light-dark(#7A4000,#FFFFFF);" value="Нет DevOps-инженеров, нет 2-й линии поддержки для мониторинга&lt;br&gt;&lt;br&gt;Высокий bus factor с ключевыми разработчиками&lt;br&gt;&lt;br&gt;Нет опыта K8s и Docker" vertex="1">
+          <mxGeometry height="100" width="168" x="607" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="bb1" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#555555;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="340" as="sourcePoint" />
+            <mxPoint x="272" y="528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lb1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=light-dark(#B85450,#FFFFFF);fontSize=11;fontStyle=1;fontColor=light-dark(#6B1A17,#FFFFFF);" value="Интеграция" vertex="1">
+          <mxGeometry height="32" width="160" x="191" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="sb1_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFF5F5,#512D2B);strokeColor=light-dark(#FFFFFF,#FFFFFF);fontSize=9;fontColor=light-dark(#6B1A17,#FFFFFF);" value="Нет MQ, только синхронный вызов&lt;br&gt;&lt;br&gt;Нет circuit breaker, exp retry&lt;br&gt;&lt;br&gt;Несовместимые форматы данных (XML vs JSON vs gRPC)&lt;br&gt;&lt;br&gt;Нет балансировки, API Gateway" vertex="1">
+          <mxGeometry height="97" width="168" x="110.5" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="bb2" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#555555;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="340" as="sourcePoint" />
+            <mxPoint x="577" y="528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lb2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=light-dark(#9673A6,#FFFFFF);fontSize=11;fontStyle=1;fontColor=light-dark(#3D1F5E,#FFFFFF);" value="Данные" vertex="1">
+          <mxGeometry height="32" width="155" x="498" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="sb2_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#F9F5FB,#392F3F);strokeColor=light-dark(#9673A6,#FFFFFF);fontSize=9;fontColor=light-dark(#3D1F5E,#FFFFFF);" value="Монолит, общая БД для всех сервисов&lt;br&gt;&lt;br&gt;Нет резервного копирования" vertex="1">
+          <mxGeometry height="72" width="168" x="411" y="371.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bb3" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#555555;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="340" as="sourcePoint" />
+            <mxPoint x="908" y="528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lb3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=light-dark(#D6B656,#FFFFFF);fontSize=11;fontStyle=1;fontColor=light-dark(#6B4F00,#FFFFFF);" value="Процессы" vertex="1">
+          <mxGeometry height="32" width="158" x="826" y="528" as="geometry" />
+        </mxCell>
+        <mxCell id="sb3_1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFDF0,#281D00);strokeColor=light-dark(#D6B656,#FFFFFF);fontSize=9;fontColor=light-dark(#6B4F00,#FFFFFF);" value="Нет выстроенного CI/CD&lt;br&gt;&lt;br&gt;Нет планов отката при сбоях&lt;br&gt;&lt;br&gt;Нет инцидент-менеджмента&lt;br&gt;&lt;br&gt;Отстсутвие мониторинга и трейсинга" vertex="1">
+          <mxGeometry height="94" width="168" x="751" y="371.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
