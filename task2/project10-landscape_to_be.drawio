@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.3">
   <diagram name="Страница — 1" id="flqb_vgoVWN2gIgyEzhE">
     <mxGraphModel dx="4293" dy="1596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,32 +102,32 @@
             <mxGeometry height="120" width="240" x="-130" y="420" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Client web service" c4Type="Software System" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-1">
+        <object placeholders="1" c4Name="Client web service" c4Type="Software System" c4Description="Портал для клиентов. Java + отдельная БД Postgres" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-1">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=light-dark(#1061B0,#66FF66);fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
             <mxGeometry height="120" width="240" x="-827" y="1010" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Employee web service" c4Type="Software System" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-2">
+        <object placeholders="1" c4Name="Employee web service" c4Type="Software System" c4Description=" Общий корпоративный портал для сотрудников. Java + отдельная БД Postgres" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-2">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=light-dark(#1061B0,#66FF66);fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
             <mxGeometry height="120" width="240" x="-850" y="790" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Medical main system" c4Type="Software System" c4Description="Система управления клиентами, заказами, результатами" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-3">
+        <object placeholders="1" c4Name="Medical main system" c4Type="Java/REST API" c4Description="Система управления клиентами, заказами, результатами. Java + отдельная БД Postgres" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-3">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=light-dark(#1061B0,#66FF66);fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
             <mxGeometry height="120" width="240" x="-470" y="1110" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Secure Data Layer" c4Type="AES-256" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-4">
+        <object placeholders="1" c4Name="Secure Data Layer" c4Type="Vault" c4Description="Управление ключами, шифрование (AES-256)" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-4">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=light-dark(#1061B0,#66FF66);fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
-            <mxGeometry height="120" width="240" x="-140" y="1110" as="geometry" />
+            <mxGeometry height="120" width="240" x="-120" y="1155" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Privacy Control Layer" c4Type="" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-5">
+        <object placeholders="1" c4Name="Privacy Control Layer" c4Type="Software System" c4Description="Права доступа&#xa;Классификация и тэгирование данных&#xa;Аудит" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-5">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=light-dark(#1061B0,#66FF66);fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
             <mxGeometry height="120" width="240" x="-470" y="790" as="geometry" />
           </mxCell>
         </object>
-        <object placeholders="1" c4Name="Laboratory API service" c4Type="" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-6">
+        <object placeholders="1" c4Name="Laboratory API service" c4Type="REST/HTTPS" c4Description="Интеграционный слой между внешней лабораторией и основной CRM системой" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-6">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=light-dark(#1061B0,#66FF66);fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
             <mxGeometry height="120" width="240" x="-130" y="800" as="geometry" />
           </mxCell>
@@ -192,7 +192,7 @@
             <mxPoint x="-670" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <object placeholders="1" c4Name="Payment Service" c4Type="" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-20">
+        <object placeholders="1" c4Name="Payment Service" c4Type="Java/REST API" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-20">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=light-dark(#1061B0,#66FF66);fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
             <mxGeometry height="120" width="240" x="-480" y="1275" as="geometry" />
           </mxCell>
@@ -218,7 +218,7 @@
             <mxPoint x="-360" y="1230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <object placeholders="1" c4Name="External Payment Systems" c4Type="" c4Description="" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-25">
+        <object placeholders="1" c4Name="External Payment Systems" c4Type="External System" c4Description="Внешние платёжные системы" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dxhUv--QSfZLQD4KIU8C-25">
           <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=light-dark(#8C8496,#66FF66);fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
             <mxGeometry height="120" width="240" x="200" y="1310" as="geometry" />
           </mxCell>
@@ -259,6 +259,41 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-570" y="1160" as="sourcePoint" />
             <mxPoint x="-520" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-PAiG70lpJp4Dgl_0q-E-1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#66FF66);fontColor=light-dark(#000000,#101010);" value="&lt;b&gt;S3&lt;/b&gt;&lt;br&gt;&lt;br&gt;Хранение документов, договоров, результатов" vertex="1">
+          <mxGeometry height="120" width="130" x="-50" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="-PAiG70lpJp4Dgl_0q-E-2" edge="1" parent="1" source="dxhUv--QSfZLQD4KIU8C-6" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#66FF66);" target="-PAiG70lpJp4Dgl_0q-E-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="1010" as="sourcePoint" />
+            <mxPoint x="-160" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-PAiG70lpJp4Dgl_0q-E-3" edge="1" parent="1" source="dxhUv--QSfZLQD4KIU8C-3" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#66FF66);" target="-PAiG70lpJp4Dgl_0q-E-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="150" y="1000" as="sourcePoint" />
+            <mxPoint x="-130" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Analytic system" c4Type="Apache Airflow" c4Description="Необходимые данные забираются из реплики оснвоной БД, маскируются, группируются при необходимости и сохраняются в БД для аналитики" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="-PAiG70lpJp4Dgl_0q-E-4">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=light-dark(#1061B0,#66FF66);fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="-150" y="1460" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="-PAiG70lpJp4Dgl_0q-E-5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=light-dark(#FFFFFF,#66FF66);fontColor=light-dark(#000000,#101010);" value="&lt;b&gt;Analytic DB&lt;/b&gt;&lt;br&gt;[Greenplum/Clickhouse]&lt;br&gt;&lt;br&gt;Анонимизированные данные" vertex="1">
+          <mxGeometry height="130" width="155" x="-95" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="-PAiG70lpJp4Dgl_0q-E-6" edge="1" parent="1" source="dxhUv--QSfZLQD4KIU8C-3" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#66FF66);" target="-PAiG70lpJp4Dgl_0q-E-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-140" y="1370" as="sourcePoint" />
+            <mxPoint x="100" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-PAiG70lpJp4Dgl_0q-E-7" edge="1" parent="1" source="-PAiG70lpJp4Dgl_0q-E-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#66FF66);" target="-PAiG70lpJp4Dgl_0q-E-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-130" y="1400" as="sourcePoint" />
+            <mxPoint x="10" y="1660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
